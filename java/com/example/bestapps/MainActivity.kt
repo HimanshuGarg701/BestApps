@@ -27,13 +27,10 @@ class MainActivity : AppCompatActivity() {
                 Log.d("SUCCESS-MSG", "$data")
                 return data
             }
-
         }
 
         private fun downloadData(url : String?) : String{
             return URL(url).readText()
         }
     }
-
-
 }
